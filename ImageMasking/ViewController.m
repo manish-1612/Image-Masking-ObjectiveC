@@ -22,29 +22,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [self setRoundedView:imageView toDiameter:180.0];
-    self.view.backgroundColor=[UIColor underPageBackgroundColor];
-    self.imageView.backgroundColor=[UIColor blackColor];
-    self.imageView.image=[UIImage imageNamed:@"dark1.png"];
-    self.imageView.layer.borderColor=[[UIColor whiteColor] CGColor];
-    self.imageView.layer.borderWidth=5.0;
-    
-    UIImage *image=[UIImage imageNamed:@"image.png"];
+    UIImage *image=[UIImage imageNamed:@"light2.png"];
     UIImage *mask=[UIImage imageNamed:@"mask23.png"];
     UIImage *newimage=[self maskImage:image withMask:mask];
     self.imageView1.image=newimage;
 }
-
--(void)setRoundedView:(UIImageView *)roundedView toDiameter:(float)newSize;
-{
-    CGPoint saveCenter = roundedView.center;
-    CGRect newFrame = CGRectMake(roundedView.frame.origin.x, roundedView.frame.origin.y, newSize, newSize);
-    roundedView.frame = newFrame;
-    roundedView.layer.cornerRadius = newSize / 2.0;
-    roundedView.layer.masksToBounds=YES;
-    roundedView.center = saveCenter;
-}
-
 
 - (UIImage*) maskImage:(UIImage *) image withMask:(UIImage *) mask
 {

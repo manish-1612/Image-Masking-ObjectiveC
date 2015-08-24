@@ -15,31 +15,21 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znB-05-MYg">
-                                <rect key="frame" x="40" y="299" width="240" height="209"/>
+                                <rect key="frame" x="0.0" y="47" width="320" height="322"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="ER1-88-cN9"/>
-                                    <constraint firstAttribute="height" constant="209" id="LFg-Bb-sX8"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soO-ey-FMI">
-                                <rect key="frame" x="64" y="33" width="180" height="180"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="186-LC-WD2"/>
-                                    <constraint firstAttribute="width" constant="180" id="cVV-vP-yX0"/>
+                                    <constraint firstAttribute="height" constant="322" id="Ppd-9i-5Gv"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="znB-05-MYg" secondAttribute="bottom" constant="40" id="9or-At-YdL"/>
-                            <constraint firstItem="soO-ey-FMI" firstAttribute="top" secondItem="3" secondAttribute="top" constant="33" id="Qaa-Xy-Fhm"/>
-                            <constraint firstItem="znB-05-MYg" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="sQy-9v-uQt"/>
-                            <constraint firstItem="soO-ey-FMI" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="64" id="uPQ-Hv-xUh"/>
+                            <constraint firstItem="znB-05-MYg" firstAttribute="top" secondItem="3" secondAttribute="top" constant="47" id="3Ip-Jv-b11"/>
+                            <constraint firstAttribute="trailing" secondItem="znB-05-MYg" secondAttribute="trailing" type="default" id="a6V-Fe-oeC"/>
+                            <constraint firstItem="znB-05-MYg" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="tuH-wG-Tlk"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="imageView" destination="soO-ey-FMI" id="Fdy-fE-S1i"/>
                         <outlet property="imageView1" destination="znB-05-MYg" id="R0h-Am-5Vo"/>
                     </connections>
                 </viewController>
