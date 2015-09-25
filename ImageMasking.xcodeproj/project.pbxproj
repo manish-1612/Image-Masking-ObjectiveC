@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		795EE17B1BB573FE0001B1DC /* shape1.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE1751BB573FE0001B1DC /* shape1.png */; settings = {ASSET_TAGS = (); }; };
+		795EE17C1BB573FE0001B1DC /* shape2.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE1761BB573FE0001B1DC /* shape2.png */; settings = {ASSET_TAGS = (); }; };
+		795EE17D1BB573FE0001B1DC /* shape3.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE1771BB573FE0001B1DC /* shape3.png */; settings = {ASSET_TAGS = (); }; };
+		795EE17E1BB573FE0001B1DC /* shape4.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE1781BB573FE0001B1DC /* shape4.png */; settings = {ASSET_TAGS = (); }; };
+		795EE17F1BB573FE0001B1DC /* shape5.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE1791BB573FE0001B1DC /* shape5.png */; settings = {ASSET_TAGS = (); }; };
+		795EE1801BB573FE0001B1DC /* shape6.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EE17A1BB573FE0001B1DC /* shape6.png */; settings = {ASSET_TAGS = (); }; };
 		796FCA661B8AFB980089EDDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796FCA531B8AFB980089EDDD /* AppDelegate.m */; };
 		796FCA671B8AFB980089EDDD /* dark1.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA541B8AFB980089EDDD /* dark1.png */; };
 		796FCA681B8AFB980089EDDD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA551B8AFB980089EDDD /* Default-568h@2x.png */; };
@@ -18,9 +24,7 @@
 		796FCA6E1B8AFB980089EDDD /* ImageMasking-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA5D1B8AFB980089EDDD /* ImageMasking-Info.plist */; };
 		796FCA6F1B8AFB980089EDDD /* light2.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA5F1B8AFB980089EDDD /* light2.png */; };
 		796FCA701B8AFB980089EDDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796FCA601B8AFB980089EDDD /* main.m */; };
-		796FCA711B8AFB980089EDDD /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA611B8AFB980089EDDD /* mask.png */; };
-		796FCA721B8AFB980089EDDD /* mask23.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA621B8AFB980089EDDD /* mask23.png */; };
-		796FCA731B8AFB980089EDDD /* mask46.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA631B8AFB980089EDDD /* mask46.png */; };
+		796FCA711B8AFB980089EDDD /* shape7.png in Resources */ = {isa = PBXBuildFile; fileRef = 796FCA611B8AFB980089EDDD /* shape7.png */; };
 		796FCA741B8AFB980089EDDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796FCA651B8AFB980089EDDD /* ViewController.m */; };
 		79DA60D217F00D7C00FFF6FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DA60D117F00D7C00FFF6FF /* UIKit.framework */; };
 		79DA60D417F00D7C00FFF6FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DA60D317F00D7C00FFF6FF /* Foundation.framework */; };
@@ -29,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		795EE1751BB573FE0001B1DC /* shape1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape1.png; sourceTree = "<group>"; };
+		795EE1761BB573FE0001B1DC /* shape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape2.png; sourceTree = "<group>"; };
+		795EE1771BB573FE0001B1DC /* shape3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape3.png; sourceTree = "<group>"; };
+		795EE1781BB573FE0001B1DC /* shape4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape4.png; sourceTree = "<group>"; };
+		795EE1791BB573FE0001B1DC /* shape5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape5.png; sourceTree = "<group>"; };
+		795EE17A1BB573FE0001B1DC /* shape6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape6.png; sourceTree = "<group>"; };
 		796FCA521B8AFB980089EDDD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		796FCA531B8AFB980089EDDD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		796FCA541B8AFB980089EDDD /* dark1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark1.png; sourceTree = "<group>"; };
@@ -41,9 +51,7 @@
 		796FCA5D1B8AFB980089EDDD /* ImageMasking-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ImageMasking-Info.plist"; sourceTree = "<group>"; };
 		796FCA5F1B8AFB980089EDDD /* light2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light2.png; sourceTree = "<group>"; };
 		796FCA601B8AFB980089EDDD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		796FCA611B8AFB980089EDDD /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
-		796FCA621B8AFB980089EDDD /* mask23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask23.png; sourceTree = "<group>"; };
-		796FCA631B8AFB980089EDDD /* mask46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask46.png; sourceTree = "<group>"; };
+		796FCA611B8AFB980089EDDD /* shape7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape7.png; sourceTree = "<group>"; };
 		796FCA641B8AFB980089EDDD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		796FCA651B8AFB980089EDDD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		796FCA761B8AFCA70089EDDD /* ImageMasking-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageMasking-Prefix.pch"; sourceTree = "<group>"; };
@@ -88,10 +96,14 @@
 				796FCA761B8AFCA70089EDDD /* ImageMasking-Prefix.pch */,
 				796FCA541B8AFB980089EDDD /* dark1.png */,
 				796FCA5C1B8AFB980089EDDD /* image.png */,
+				795EE1751BB573FE0001B1DC /* shape1.png */,
+				795EE1761BB573FE0001B1DC /* shape2.png */,
+				795EE1771BB573FE0001B1DC /* shape3.png */,
+				795EE1781BB573FE0001B1DC /* shape4.png */,
+				795EE1791BB573FE0001B1DC /* shape5.png */,
+				795EE17A1BB573FE0001B1DC /* shape6.png */,
+				796FCA611B8AFB980089EDDD /* shape7.png */,
 				796FCA5F1B8AFB980089EDDD /* light2.png */,
-				796FCA611B8AFB980089EDDD /* mask.png */,
-				796FCA621B8AFB980089EDDD /* mask23.png */,
-				796FCA631B8AFB980089EDDD /* mask46.png */,
 				796FCA581B8AFB980089EDDD /* InfoPlist.strings */,
 				796FCA5D1B8AFB980089EDDD /* ImageMasking-Info.plist */,
 				796FCA601B8AFB980089EDDD /* main.m */,
@@ -182,16 +194,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				796FCA6C1B8AFB980089EDDD /* MainStoryboard.storyboard in Resources */,
-				796FCA711B8AFB980089EDDD /* mask.png in Resources */,
+				796FCA711B8AFB980089EDDD /* shape7.png in Resources */,
 				796FCA6A1B8AFB980089EDDD /* Default@2x.png in Resources */,
-				796FCA731B8AFB980089EDDD /* mask46.png in Resources */,
 				796FCA671B8AFB980089EDDD /* dark1.png in Resources */,
 				796FCA691B8AFB980089EDDD /* Default.png in Resources */,
+				795EE1801BB573FE0001B1DC /* shape6.png in Resources */,
+				795EE17C1BB573FE0001B1DC /* shape2.png in Resources */,
 				796FCA6F1B8AFB980089EDDD /* light2.png in Resources */,
 				796FCA6D1B8AFB980089EDDD /* image.png in Resources */,
+				795EE17F1BB573FE0001B1DC /* shape5.png in Resources */,
 				796FCA681B8AFB980089EDDD /* Default-568h@2x.png in Resources */,
-				796FCA721B8AFB980089EDDD /* mask23.png in Resources */,
+				795EE17B1BB573FE0001B1DC /* shape1.png in Resources */,
 				796FCA6B1B8AFB980089EDDD /* InfoPlist.strings in Resources */,
+				795EE17E1BB573FE0001B1DC /* shape4.png in Resources */,
+				795EE17D1BB573FE0001B1DC /* shape3.png in Resources */,
 				796FCA6E1B8AFB980089EDDD /* ImageMasking-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
