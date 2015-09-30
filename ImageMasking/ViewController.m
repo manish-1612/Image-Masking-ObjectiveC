@@ -21,8 +21,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    UIImage *image=[UIImage imageNamed:@"dark1.png"];
-    UIImage *mask=[UIImage imageNamed:@"shape7.png"];
+    UIImage *image=[UIImage imageNamed:@"image2.png"];
+    UIImage *mask=[UIImage imageNamed:@"mask6.png"];
     UIImage *newimage=[self maskImage:image withMask:mask];
     self.imageView1.image=newimage;
 }
