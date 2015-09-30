@@ -14,7 +14,6 @@
 @end
 
 @implementation ViewController
-@synthesize imageView;
 @synthesize imageView1;
 
 - (void)viewDidLoad
